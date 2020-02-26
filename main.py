@@ -3,11 +3,11 @@ from draw import *
 from matrix import *
 
 screen = new_screen()
-color = [ 0, 255, 255 ]
+color = [ 158, 96, 144 ]
 matrix = new_matrix()
 
-for i in range(361):
-    add_point(matrix, int(250 + (250 * math.cos(i))), int(250 + (250 * math.sin(i))))
+for i in range(200):
+    add_point(matrix, i, YRES - i)
 
 draw_lines(matrix, screen, color)
 display(screen)
