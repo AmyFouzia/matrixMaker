@@ -22,5 +22,8 @@ add_edge(matrix, 110, 290, 50, 95, 285, 100)
 add_edge(matrix, 110, 290, 50, 170, 275, 100)
 add_edge(matrix, 105, 275, 50, 170, 275, 100)
 
+add_edge(matrix, 210, 295, 50, 170, 275, 100)
+add_edge(matrix, 215, 295, 50, 170, 275, 100)
+
 draw_lines(matrix, screen, color)
 display(screen)
