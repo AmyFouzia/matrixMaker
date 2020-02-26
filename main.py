@@ -6,7 +6,7 @@ screen = new_screen()
 color = [ 158, 96, 144 ]
 matrix = new_matrix()
 
-for i in range(200):
+for i in range(XRES-1):
     add_point(matrix, i, YRES - i)
 
 draw_lines(matrix, screen, color)
